@@ -10,12 +10,18 @@ export const holeLayouts = {
 export const defaultProject = {
   version:1,
   meta:{id:crypto.randomUUID?.()||String(Date.now()),title:'Бей крота — Учебная игра',language:'ru'},
-  design:{theme:'forest',accent:'#7c5cff',button:'#7c5cff',text:'#ffffff',radius:24,font:'Manrope'},
+  design:{theme:'forest',accent:'#7c5cff',button:'#7c5cff',text:'#ffffff',radius:24,font:'Manrope',
+    screens:{
+      title:{font:'Manrope',titleSize:48,text:'#ffffff',background:'#0e1529',border:'#927bff',glow:'#7657e8',button:'#7657e8',buttonText:'#ffffff',buttonGlow:'#7657e8'},
+      question:{font:'Manrope',titleSize:30,text:'#ffffff',background:'#121a31',border:'#7060cb',glow:'#7657e8',button:'#7657e8',buttonText:'#ffffff',buttonGlow:'#7657e8'},
+      win:{font:'Manrope',titleSize:46,text:'#ffffff',background:'#102b27',border:'#54e3b2',glow:'#32c997',button:'#20b486',buttonText:'#ffffff',buttonGlow:'#32c997'},
+      lose:{font:'Manrope',titleSize:46,text:'#ffffff',background:'#301827',border:'#ff629f',glow:'#e83e7f',button:'#df3977',buttonText:'#ffffff',buttonGlow:'#e83e7f'}
+    }},
   game:{duration:60,lives:3,targetScore:80,pauseDuringQuestion:true,showTimer:true,showScore:true,showLives:true},
   background:{preset:'garden',custom:null,fit:'cover'},
   holes:holeLayouts[6],
   characters:[
-    {id:'mole',name:'Крот',emoji:'🦫',kind:'normal',points:10,scale:1},
+    {id:'mole',name:'Крот',emoji:'🐹',kind:'normal',points:10,scale:1},
     {id:'frog',name:'Лягушка',emoji:'🐸',kind:'bonus',points:20,scale:1},
     {id:'bomb',name:'Бомба',emoji:'💣',kind:'danger',points:-10,scale:1}
   ],
@@ -29,5 +35,5 @@ export const defaultProject = {
     {id:'q4',type:'order',text:'Расставьте числа по возрастанию',options:['12','3','8','1'],correct:['1','3','8','12'],points:20}
   ],
   screens:{subtitle:'Ударь крота и ответь на вопрос',instruction:'Попадай по кротам, отвечай на задания и не нажимай на бомбы!',playButton:'Начать игру',winTitle:'Отличная работа!',loseTitle:'Попробуй ещё раз!'},
-  sounds:{enabled:true,volume:.6}, assets:[]
+  sounds:{enabled:true,volume:.6,spawn:true,hit:true,correct:true,wrong:true,win:true,lose:true}, assets:[]
 };
