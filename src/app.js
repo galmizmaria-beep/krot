@@ -1,4 +1,3 @@
-import './styles.css';
 import {defaultProject,holeLayouts} from './defaults.js';
 
 const clone=o=>JSON.parse(JSON.stringify(o));
