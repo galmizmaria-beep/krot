@@ -1,0 +1,8 @@
+.DS_Store
+node_modules/
+dist/
+*.log
+/TZ_Whack_a_Mole_Editor_for_Claude (1).md
+/TZ_Whack_a_Mole_Editor_for_Claude.docx
+/как должен выглядеть редактор.png
+/суть игры.png
