@@ -25,7 +25,7 @@ export const defaultProject = {
     {id:'frog',name:'Лягушка',emoji:'🐸',artIndex:1,kind:'bonus',points:20,scale:1},
     {id:'bomb',name:'Бомба',emoji:'💣',toolArtIndex:0,kind:'danger',points:-10,scale:1}
   ],
-  hitItem:{name:'Молоток',emoji:'🔨',toolArtIndex:3,size:70,duration:260},
+  hitItem:{name:'Молоток',emoji:'🔨',toolArtIndex:3,size:70,duration:360,exitAnimation:'sink'},
   spawnSettings:{mode:'random',minInterval:900,maxInterval:1700,visibleFor:1600,maxActive:2},
   spawnTimeline:[{time:2,character:'mole',hole:0},{time:5,character:'frog',hole:3},{time:8,character:'bomb',hole:1}],
   questions:[
