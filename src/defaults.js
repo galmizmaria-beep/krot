@@ -10,7 +10,7 @@ export const holeLayouts = {
 export const defaultProject = {
   version:1,
   meta:{id:crypto.randomUUID?.()||String(Date.now()),title:'Бей крота — Учебная игра',language:'ru'},
-  design:{theme:'forest',accent:'#7c5cff',button:'#7c5cff',text:'#ffffff',radius:24,font:'Manrope',
+  design:{theme:'forest',accent:'#7c5cff',button:'#7c5cff',text:'#ffffff',radius:24,font:'Manrope',holeStyle:'stones',
     screens:{
       title:{font:'Manrope',titleSize:48,text:'#ffffff',background:'#0e1529',border:'#927bff',glow:'#7657e8',button:'#7657e8',buttonText:'#ffffff',buttonGlow:'#7657e8'},
       question:{font:'Manrope',titleSize:30,text:'#ffffff',background:'#121a31',border:'#7060cb',glow:'#7657e8',button:'#7657e8',buttonText:'#ffffff',buttonGlow:'#7657e8'},
