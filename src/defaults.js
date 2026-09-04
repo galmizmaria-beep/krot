@@ -28,7 +28,8 @@ export const defaultProject = {
     {id:'bomb',name:'Бомба',emoji:'💣',toolArtIndex:0,kind:'danger',points:-10,scale:1}
   ],
   hitItem:{name:'Молоток',emoji:'🔨',toolArtIndex:3,size:70,duration:360,exitAnimation:'sink'},
-  editorLayout:{hero:{x:50,y:58,size:14},danger:{x:50,y:58,size:14},hammer:{x:75,y:62,size:22}},
+  editorLayout:{hero:{x:50,y:72,size:14},danger:{x:50,y:72,size:14},hammer:{x:75,y:62,size:22}},
+  objectOffsets:{hero:{x:0,y:0},danger:{x:0,y:0}},
   spawnSettings:{mode:'random',minInterval:900,maxInterval:1700,visibleFor:1600,maxActive:2},
   spawnTimeline:[{time:2,character:'mole',hole:0},{time:5,character:'frog',hole:3},{time:8,character:'bomb',hole:1}],
   questions:[
