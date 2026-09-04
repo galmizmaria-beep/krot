@@ -2,7 +2,7 @@ import {defaultProject,holeLayouts} from './defaults.js';
 import {translations,languageNames,phraseTranslations} from './i18n.js';
 
 const clone=o=>JSON.parse(JSON.stringify(o));
-const BUILD_VERSION='2026.09.04.8';
+const BUILD_VERSION='2026.09.04.9';
 const ART=window.GAME_ART||{};
 const savedRaw=localStorage.getItem('whackProject');
 let project=(()=>{try{return {...clone(defaultProject),...JSON.parse(savedRaw)}}catch{return clone(defaultProject)}})();

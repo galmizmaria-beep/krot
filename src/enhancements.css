@@ -14,6 +14,6 @@ body[data-hole-style="neon"] .hole{background:radial-gradient(ellipse,#050313 15
 .mole-wrap,.embedded .mole-wrap{transform:translate(-50%,-68%)}.player-hammer{transform:translate(-50%,-65%) rotate(-24deg) scale(1.6)}.player-hammer.held{transform:translate(-50%,-65%) rotate(10deg) scale(1.72)}.art-asset small{color:#fff!important}.answer.selected{box-shadow:0 0 0 2px var(--accent);filter:brightness(1.25)}
 .preview-toolbar [data-screen="game"]{order:-20}.preview-toolbar [data-screen="title"]{order:-19}.player-hammer:before{content:'';position:absolute;inset:-22px;border-radius:50%}
 .object-chip.danger.active{border-color:#8c73ff;box-shadow:0 0 0 2px #8c73ff55,0 7px 18px #0004}.selection-box[data-selection="danger"]{border-color:#44ef8b;box-shadow:0 0 0 1px #04180c,0 0 18px #35e87c66}
-.brand small:after{content:" · v2026.09.04.8";color:#a99aff}
+.brand small:after{content:" · v2026.09.04.9";color:#a99aff}
 .object-chip.danger,.object-chip.danger.active{border-color:#435078;background:linear-gradient(180deg,#202945,#141a30);box-shadow:0 0 0 2px #8c73ff55,0 7px 18px #0004}
 .hole{aspect-ratio:1.5;background:none!important;border-radius:0!important;overflow:visible!important;filter:none!important}.hole-image{display:block;width:100%;height:100%;object-fit:contain;pointer-events:none}.hole-card img{object-fit:contain!important;padding:3px}.hero-library .gif-item{background:repeating-conic-gradient(#182039 0 25%,#10162a 0 50%) 50%/14px 14px}.hero-library .gif-item img{object-fit:contain!important}
