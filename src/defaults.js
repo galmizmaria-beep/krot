@@ -10,9 +10,9 @@ export const holeLayouts = {
 export const defaultProject = {
   version:1,
   meta:{id:crypto.randomUUID?.()||String(Date.now()),title:'Бей крота — Учебная игра',language:'ru'},
-  design:{theme:'forest',accent:'#7c5cff',button:'#7c5cff',text:'#ffffff',radius:24,font:'Manrope',holeStyle:'tech',hud:{background:'#11172d',border:'#ffffff',timerBorder:'#55dfd0',scoreBorder:'#ffd75e',livesBorder:'#ff6d9e',text:'#ffffff'},
+  design:{theme:'forest',accent:'#7c5cff',button:'#7c5cff',text:'#ffffff',radius:24,font:'Manrope',holeStyle:'tech',hud:{background:'#11172d',border:'#ffffff',timerBorder:'#55dfd0',scoreBorder:'#ffd75e',livesBorder:'#ff6d9e',text:'#ffffff',scale:1},
     screens:{
-      title:{font:'Manrope',titleSize:48,text:'#ffffff',background:'#0e1529',border:'#927bff',glow:'#7657e8',button:'#7657e8',buttonText:'#ffffff',buttonGlow:'#7657e8',windowOpacity:0.94,slideOverlayOpacity:0.82},
+      title:{font:'Manrope',titleSize:48,subtitleSize:20,instructionSize:12,subtitleColor:'#c1c7dd',instructionColor:'#c1c7dd',text:'#ffffff',background:'#0e1529',border:'#927bff',glow:'#7657e8',button:'#7657e8',buttonText:'#ffffff',buttonGlow:'#7657e8',windowOpacity:0.94,slideOverlayOpacity:0.82},
       question:{font:'Manrope',titleSize:30,answerSize:16,text:'#ffffff',background:'#121a31',border:'#7060cb',glow:'#7657e8',button:'#7657e8',buttonText:'#ffffff',buttonGlow:'#7657e8',answerBackground:'#202947',inputBackground:'#091020'},
       correct:{font:'Manrope',titleSize:42,text:'#ffffff',background:'#103329',border:'#54e3b2',glow:'#32c997',button:'#20b486',buttonText:'#ffffff',buttonGlow:'#32c997'},
       wrong:{font:'Manrope',titleSize:42,text:'#ffffff',background:'#351728',border:'#ff629f',glow:'#e83e7f',button:'#df3977',buttonText:'#ffffff',buttonGlow:'#e83e7f'},
@@ -39,6 +39,6 @@ export const defaultProject = {
     {id:'q4',type:'order',text:'Расставьте числа по возрастанию',options:['12','3','8','1'],correct:['1','3','8','12'],points:20}
   ],
   screens:{subtitle:'Ударь крота и ответь на вопрос',instruction:'Попадай по кротам, отвечай на задания и не нажимай на бомбы!',playButton:'Начать игру',correctTitle:'Правильно!',wrongTitle:'Попробуй ещё раз',winTitle:'Отличная работа!',loseTitle:'Попробуй ещё раз!'},
-  sounds:{enabled:true,volume:.6,spawn:true,hit:true,correct:true,wrong:true,win:true,lose:true},
+  sounds:{enabled:true,volume:.6,spawn:true,hit:true,correct:true,wrong:true,win:true,lose:true,custom:{}},
   assets:[], integrations:{giphyApiKey:''}
 };
