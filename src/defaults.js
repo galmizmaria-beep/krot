@@ -12,7 +12,7 @@ export const defaultProject = {
   meta:{id:crypto.randomUUID?.()||String(Date.now()),title:'Бей крота — Учебная игра',language:'ru'},
   design:{theme:'forest',accent:'#7c5cff',button:'#7c5cff',text:'#ffffff',radius:24,font:'Manrope',holeStyle:'tech',hud:{background:'#11172d',border:'#ffffff',timerBorder:'#55dfd0',scoreBorder:'#ffd75e',livesBorder:'#ff6d9e',text:'#ffffff'},
     screens:{
-      title:{font:'Manrope',titleSize:48,text:'#ffffff',background:'#0e1529',border:'#927bff',glow:'#7657e8',button:'#7657e8',buttonText:'#ffffff',buttonGlow:'#7657e8'},
+      title:{font:'Manrope',titleSize:48,text:'#ffffff',background:'#0e1529',border:'#927bff',glow:'#7657e8',button:'#7657e8',buttonText:'#ffffff',buttonGlow:'#7657e8',windowOpacity:0.94,slideOverlayOpacity:0.82},
       question:{font:'Manrope',titleSize:30,text:'#ffffff',background:'#121a31',border:'#7060cb',glow:'#7657e8',button:'#7657e8',buttonText:'#ffffff',buttonGlow:'#7657e8',answerBackground:'#202947',inputBackground:'#091020'},
       correct:{font:'Manrope',titleSize:42,text:'#ffffff',background:'#103329',border:'#54e3b2',glow:'#32c997',button:'#20b486',buttonText:'#ffffff',buttonGlow:'#32c997'},
       wrong:{font:'Manrope',titleSize:42,text:'#ffffff',background:'#351728',border:'#ff629f',glow:'#e83e7f',button:'#df3977',buttonText:'#ffffff',buttonGlow:'#e83e7f'},
