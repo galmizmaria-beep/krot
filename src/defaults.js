@@ -39,6 +39,6 @@ export const defaultProject = {
     {id:'q4',type:'order',text:'Расставьте числа по возрастанию',options:['12','3','8','1'],correct:['1','3','8','12'],points:20}
   ],
   screens:{subtitle:'Ударь крота и ответь на вопрос',instruction:'Попадай по кротам, отвечай на задания и не нажимай на бомбы!',playButton:'Начать игру',correctTitle:'Правильно!',wrongTitle:'Попробуй ещё раз',winTitle:'Отличная работа!',loseTitle:'Попробуй ещё раз!'},
-  sounds:{enabled:true,volume:.6,spawn:true,hit:true,correct:true,wrong:true,win:true,lose:true,custom:{}},
+  sounds:{enabled:true,volume:.6,spawn:true,hit:true,correct:true,wrong:true,win:true,lose:true},
   assets:[], integrations:{giphyApiKey:''}
 };
