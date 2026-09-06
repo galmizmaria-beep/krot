@@ -21,7 +21,7 @@ export const defaultProject = {
     }},
   game:{duration:60,lives:3,lifeIcon:'❤️',targetScore:80,pauseDuringQuestion:true,showTimer:true,showScore:true,showLives:true},
   background:{preset:'adventure',custom:null,fit:'cover'},
-  holes:holeLayouts[6],
+  holes:holeLayouts[6].map(h=>({...h,size:16})),
   characters:[
     {id:'mole',name:'Крот',emoji:'🐹',artIndex:0,kind:'normal',points:10,scale:1},
     {id:'frog',name:'Лягушка',emoji:'🐸',artIndex:1,kind:'bonus',points:20,scale:1},
